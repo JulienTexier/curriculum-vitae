@@ -2,7 +2,7 @@ import { SectionTitle } from './helpers';
 import { hobbiesList } from './state';
 
 const Hobbies = () => (
-  <div className="hobbies-section">
+  <div className="card p-4 rounded-xl flex flex-col text-center">
     <SectionTitle title="HOBBIES & INTERESTS" />
     <div className="hobbies">
       {hobbiesList.map((hobby) => (

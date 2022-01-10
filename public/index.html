@@ -15,6 +15,28 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <head>
+      <meta charset="utf-8" />
+    
+      <title>Julien TEXIER's resume</title>
+      <meta name="description" content="Resume of Julien Texier" />
+      <meta name="author" content="SitePoint" />
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/986b25c4be.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+      <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap" rel="stylesheet">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    
+      <link rel="stylesheet" href="styles.css" />
+    
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,7 +46,6 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -40,4 +61,35 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <!-- <script>
+
+    $(document).ready(function () {
+      var maxHeight = 0;
+      $('#languages, #education').each(function () {
+        maxHeight = Math.max(maxHeight, $(this).height());
+      });
+      $('.row #education, .row #languages').css({ height: maxHeight + 'px' });
+    });
+    $(document).ready(function () {
+      var maxHeight = 0;
+      $('#skills, #experience').each(function () {
+        maxHeight = Math.max(maxHeight, $(this).height());
+      });
+      $('.row #skills, .row #experience').css({ height: maxHeight + 'px' });
+    });
+  </script>
+  <script>
+    $(function () {
+      $(".meter > span").each(function () {
+        $(this)
+          .data("origWidth", $(this).width())
+          .width(0)
+          .animate({
+            width: $(this).data("origWidth")
+          }, 3400);
+      });
+    });
+  </script> -->
+</body>
+
 </html>

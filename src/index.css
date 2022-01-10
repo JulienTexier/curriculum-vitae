@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,451 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+  display: inline;
+}
+
+/* GENERAL STYLE */
+
+html {
+  height: 210mm;
+  width: 297mm;
+  margin: auto;
+}
+
+body {
+  margin: 15px 15px 15px 15px;
+  font-size: 15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1 {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 14.3px;
+  margin-bottom: 35px;
+}
+
+h2 {
+  font-family: "Encode Sans", sans-serif;
+  font-family: Quicksand;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+
+h3 {
+  font-family: "Encode Sans", sans-serif;
+  font-family: Quicksand;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.2px;
+  margin-top: 15px;
+}
+
+h4 {
+  font-weight: bold;
+  font-family: Quicksand;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: Quicksand;
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #0055a4;
+  text-align: center;
+  margin: 35px auto 10px auto;
+}
+
+p, span {
+  font-family: Quicksand;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+ul {
+  font-family: Quicksand;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+i.fas, i.fab {
+  margin-right: 10px;
+}
+
+/* GENERAL LAYOUT */
+
+.row {
+  width: 100%;
+  margin: auto;
+}
+
+.leftcolumn {
+  /* float: left; */
+  width: 70%;
+  padding-right: 5px;
+}
+
+
+/* GENERAL INFORMATION */
+
+.hello {
+  text-align: center;
+}
+
+#diploma {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#info-header {
+  background-color: rgb(224, 221, 221);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  border-radius: 15px 15px 5px 5px;
+  box-shadow: 0.5px 1px 10px 0.5px #888888;
+}
+
+.contact-info, .contact-address {
+  border-left: solid grey thin;
+  padding-left: 10px;
+  float: right;
+  width: 200px;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: left;
+}
+
+.contact-address {
+  margin-top: 10px;
+ 
+}
+
+.contact-info-title, .contact-address-title {
+  display: inline;
+  margin-right: 10px;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.information {
+  width: 250px;
+  height: auto;
+}
+
+#nationality {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 13px;
+  font-variant: small-caps;
+  line-height: 0px;
+  color: #0055a4;
+}
+
+#presentation {
+  -webkit-print-color-adjust: exact;
+  margin: 10px 0;
+  padding: 15px;
+  text-align: center;
+  border: solid thin;
+  border-radius: 5px 5px 15px 15px;
+  box-shadow: 0.5px 1px 10px 0.5px #888888;
+  -webkit-print-color-adjust: exact;
+}
+
+#presentation div {
+  color: #0055a4;
+}
+
+
+
+/* LANGUAGE */
+
+
+.fr span {
+  background: linear-gradient( to right, #0055a4 33.33%, #ffffff 0, #fff 66.66%, #ef4135 0);
+}
+
+.en span {
+  background: linear-gradient( to right, #169b62 33.33%, #fff 0, #fff 66.66%, #ff883e 0);
+}
+
+.fi span {
+  background: linear-gradient(to bottom, transparent 35%, #003580 35%, #003580 60%, transparent 60%), linear-gradient(to right, transparent 30%, #003580 30%, #003480 45%, transparent 45%), white;
+}
+
+.es span {
+  background: linear-gradient( 180deg, #d03e3e 0%, #d03e3e 25%, #ffc100 25%, #ffc100 75%, #d03e3e 75%, #d03e3e 100%);
+}
+
+.po span {
+  width: 52%;
+  background: linear-gradient(to right, #006600 33.33%, #ff0000 0);
+}
+
+
+.check-list li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -5px;
+  top: 2px;
+  width: 4.5px;
+  height: 7.5px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #00a8a8;
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+}
+
+/* IMAGES */
+
+.avatar {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+
+#thp {
+  vertical-align: middle;
+  width: 10mm;
+  height: 10mm;
+  border-radius: 50%;
+  margin: -20px 30px;
+  float: right;
+}
+
+.accreditations {
+  vertical-align: middle;
+  width: 6mm;
+  height: 6mm;
+  margin-left: 10px;
+}
+
+.div-accreditations {
+  float: right;
+  margin: -30px 10px;
+}
+
+#aascb {
+  vertical-align: middle;
+  width: 4mm;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+#equis {
+  vertical-align: middle;
+  width: 6mm;
+  height: auto;
+  margin-top: 0px;
+}
+
+#amba {
+  vertical-align: middle;
+  width: 10mm;
+  height: auto;
+  margin-top: 0px;
+}
+
+.logo-companies {
+  /* vertical-align: middle; */
+  width: 8mm;
+  height: auto;
+  border-radius: 10%;
+  /* margin: 4px 30px; */
+  margin-right: 15px;
+  float: right;
+}
+
+#logo-tedx {
+  vertical-align: middle;
+  width: 16mm;
+  height: auto;
+  margin: 4px 15px;
+  float: right;
+}
+
+#logo-texart {
+  vertical-align: middle;
+  width: 8mm;
+  height: auto;
+  margin: 4px 30px;
+  float: right;
+}
+
+#logo-ieseg {
+  vertical-align: middle;
+  width: 20mm;
+  height: auto;
+  margin: 0px 15px;
+  float: right;
+}
+
+#front-end {
+  height: auto;
+  margin: 1px auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.back-end {
+  vertical-align: middle;
+  width: 14mm;
+  height: auto;
+  margin: 1px auto;
+}
+
+.adobe {
+  vertical-align: middle;
+  width: 9mm;
+  height: auto;
+  margin: 2px 3px;
+}
+
+.office {
+  vertical-align: middle;
+  width: 9mm;
+  height: auto;
+  margin: 2px 0;
+}
+
+.SEO {
+  vertical-align: middle;
+  width: 8mm;
+  height: auto;
+  margin: 2px;
+}
+
+.suites {
+  margin: 2px auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* HOBBIES */
+
+.hobbies-section {
+  padding-top: 15px;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+.hobbies {
+  margin: 15px 5px;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.hobbies i {
+  margin-bottom: 10px;
+}
+
+.hobbies>div {
+  width: 25%;
+}
+
+.hobbies p {
+  margin: 0;
+}
+
+.travel-detail {
+  font-style: oblique;
+  display: block;
+  color: rgba(88, 41, 41, 0.699);
+}
+
+.music, .sports {
+  margin-top: 45px;
+}
+
+.meter {
+  box-sizing: unset;
+  height: 15px;
+  /* Can be anything */
+  width: 100% !important;
+  position: relative;
+  padding-right: 100px;
+  background: rgb(224, 221, 221);
+  box-shadow: 0.5px 1px 10px 0.5px #888888;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  padding: 2px;
+  -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.meter>span {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+@media print {
+  #presentation, #info-header {
+    box-shadow: 0.5px 1px 10px 0.5px #888888 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .meter>span {
+    -webkit-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4) !important;
+    -moz-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4) !important;
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4) !important;
+    -webkit-print-color-adjust: exact;
+    -webkit-filter: opacity(1);
+  }
+  a {
+    color: inherit !important;
+    text-decoration: inherit !important;
+  }
 }

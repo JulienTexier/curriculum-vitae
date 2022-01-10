@@ -1,8 +1,8 @@
 export const information = {
   name: 'Julien TEXIER',
   title: 'Full Stack Engineer & Master\'s in Management',
-  catch_phrase: 'Ready to tackle a new challenge',
-  address: { street: 'Merikasarminkatu 9B 27', city: '00160 Helsinki', country: 'Finland' },
+  catch_phrase: 'Ready to combine my passion with my skills', // 'Ready to tackle a new challenge',
+  address: { street: 'Merikasarminkatu 9B 27', city: '00160 Helsinki, FINLAND', country: 'Finland' },
   contacts: [{ name: 'julien.texier@ieseg.fr', href: 'mailto:julien.texier@ieseg.fr', icon: 'fas fa-at fa-sm' }, { name: '+33 6 22 45 69 47', href: 'tel:33622456947', icon: 'fas fa-phone fa-sm' },
     { name: 'Julien.texier12', href: 'skype:Julien.texier12?call', icon: 'fab fa-skype' },
     {
@@ -23,7 +23,7 @@ export const experiencesList = [
     location: 'Espoo, FI',
     duration: 'January 2021 - Now',
     title: 'Full Stack Engineer & Project Manager',
-    description: 'In charge of designing full-stack web experiences for customers using a MERN framework & AWS. Implementation of CI/CD procedures, handled server and app migrations', //  & managed an international expansion multi-departmental project
+    description: 'In charge of designing full-stack web experiences for customers using a MERN framework & AWS. Implementation of CI/CD procedures, handling of server and app migrations', //  & managed an international expansion multi-departmental project
   },
   {
     company: 'papernest',
@@ -86,7 +86,7 @@ export const educationList = [
     company: 'The Hacking Project',
     logo: 'thp.png',
     location: 'Rennes, FR',
-    duration: 'July 2019 - September 2019',
+    duration: '2019', // 'July 2019 - September 2019',
     title: 'Peer-programming intensive Bootcamp',
     info: 'Fullstack developer training in peer-learning',
     description: 'Languages learned: Ruby, Ruby on Rails, Javascript, jQuery, HTML, CSS, Bootstrap, Database & SQL, command-line & git, Github flow, Heroku',
@@ -201,12 +201,12 @@ export const skillsList = [
       'AWS',
       'CI/CD',
       'Postman',
-      'BitBucket Pipelines',
-      'Github Actions',
       'Git',
       'Version Control',
-      'Firebase',
       'Heroku',
+      'Firebase',
+      'BitBucket Pipelines',
+      'Github Actions',
       // 'SVN',
       // 'Travis CI',
       // 'CircleCI',
@@ -237,7 +237,7 @@ export const hobbiesList = [
     locale: 'sports',
     name: 'Sports',
     icon: 'fas fa-basketball-ball',
-    details: ['- Squash, fitness, ice-swimming -', '- 7 years of Football -', '- 6 Years of Basketball -', 'Bronze Medal at the French Cup 2014', 'Basketball coach for 1 year'],
+    details: ['- Squash, ice-swimming -', '- 7 years of Football -', '- 6 Years of Basketball -', 'Bronze Medal at the French Cup 2014', 'Basketball coach for 1 year'],
   },
   {
     locale: 'other',

@@ -54,7 +54,7 @@ h1 {
   font-variant: small-caps;
   font-weight: 400;
   line-height: 14.3px;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -116,31 +116,26 @@ i.fab {
 
 /* GENERAL INFORMATION */
 
-#diploma {
-  font-size: 25px;
-  padding-bottom: 10px;
-}
-
 #info-header {
-  background-color: rgb(224, 221, 221);
+  /* background-color: rgb(224, 221, 221); */
   box-shadow: 0.5px 1px 10px 0.5px #888888;
 }
 
-.contact-info,
+/* .contact-info,
 .contact-address {
   border-left: solid grey thin;
-  padding-left: 10px;
+  /* padding-left: 10px;
   float: right;
-  width: 200px;
-  font-size: 13px;
-  line-height: 17px;
-  text-align: left;
-}
+  width: 200px; */
+/* font-size: 13px; */
+/* line-height: 17px; */
+/* text-align: left; */
 
-.contact-address {
+
+/* .contact-address {
   margin-top: 10px;
 
-}
+} */
 
 .contact-info-title,
 .contact-address-title {

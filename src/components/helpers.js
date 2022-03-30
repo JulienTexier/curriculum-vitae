@@ -31,7 +31,7 @@ export const Experience = ({
     <div className="w-1/4">
       <h4>
         <div className="block">
-          <img className="object-scale-down h-8 w-8 float-right mr-3" src={`images/${logo}`} alt={`${company} logo`} />
+          <img className="object-scale-down h-8 w-8 float-right mr-3" src={`/images/${logo}`} alt={`${company} logo`} />
           {company}
         </div>
         <div className="block font-normal">{location}</div>

@@ -1,7 +1,7 @@
 export const information = {
   name: 'Julien TEXIER',
   title: 'Full Stack Engineer & Master\'s in Management',
-  catch_phrase: 'Ready to combine my passion with my skills', // 'Ready to tackle a new challenge',
+  catch_phrase: 'Ready to tackle a new challenge',
   address: { street: 'Merikasarminkatu 9B 27', city: '00160 Helsinki, FINLAND', country: 'Finland' },
   contacts: [{ name: 'julien.texier@ieseg.fr', href: 'mailto:julien.texier@ieseg.fr', icon: 'fas fa-at fa-sm' }, { name: '+33 6 22 45 69 47', href: 'tel:33622456947', icon: 'fas fa-phone fa-sm' },
     { name: 'Julien.texier12', href: 'skype:Julien.texier12?call', icon: 'fab fa-skype' },
@@ -14,7 +14,7 @@ export const information = {
   ],
 };
 
-export const presentation = 'Deeply passionate about music and new technology, I graduated with a Master\'s in Management before specializing in Web development. Curious, open-minded and proactive, I can relate to a wide range of people and complement this with good attention to detail, enjoyment of learning new things and working well under pressure.';
+export const presentation = 'I graduated with a Master\'s in Management before specializing in Web development. Curious, open-minded and proactive, I can relate to a wide range of people and complement this with good attention to detail, enjoyment of learning new things and working well under pressure. I strive to write the cleanest and most transparent code to enable the easiest peer-reviewing process.';
 
 export const experiencesList = [
   {
@@ -22,8 +22,8 @@ export const experiencesList = [
     logo: 'q-logo.jpg',
     location: 'Espoo, FI',
     duration: 'January 2021 - Now',
-    title: 'Full Stack Engineer & Project Manager',
-    description: 'In charge of designing full-stack web experiences for customers using a MERN framework & AWS. Implementation of CI/CD procedures, handling of server and app migrations', //  & managed an international expansion multi-departmental project
+    title: 'Full Stack Engineer (MERN) & Project Manager',
+    description: 'In charge of designing full-stack web experiences for customers using the MERN Stack & AWS. Implementation of CI/CD procedures, handling of server and app migrations', //  & managed an international expansion multi-departmental project
   },
   {
     company: 'papernest',
@@ -222,10 +222,10 @@ export const skillsList = [
 
 export const hobbiesList = [
   {
-    locale: 'music',
-    name: 'Music',
-    icon: 'fas fa-music',
-    details: ['- DJ keen of House & Tech House Music -', '- Playing Guitar & Ukulele -', '- Played in a Rock band for 2 years -'],
+    locale: 'sports',
+    name: 'Sports',
+    icon: 'fas fa-basketball-ball',
+    details: ['- Squash, ice-swimming -', '- 7 years of Football -', '- 6 Years of Basketball -', 'Bronze Medal at the French Cup 2014', 'Basketball coach for 1 year'],
   },
   {
     locale: 'travel',
@@ -234,10 +234,10 @@ export const hobbiesList = [
     details: ['Europe (13 countries),', 'including a 1-month hitchhike (3 countries)', 'South America (5 countries),', 'including a 4-month road-trip', 'Asia & Africa (2 countries)'],
   },
   {
-    locale: 'sports',
-    name: 'Sports',
-    icon: 'fas fa-basketball-ball',
-    details: ['- Squash, ice-swimming -', '- 7 years of Football -', '- 6 Years of Basketball -', 'Bronze Medal at the French Cup 2014', 'Basketball coach for 1 year'],
+    locale: 'music',
+    name: 'Music',
+    icon: 'fas fa-music',
+    details: ['- DJ keen of House & Tech House Music -', '- Playing Guitar & Ukulele -', '- Played in a Rock band for 2 years -'],
   },
   {
     locale: 'other',
